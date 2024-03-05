@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+
+        <div class = "header">
+            <!-- <h1>Etch-a-Sketch</h1> -->
+        </div>
+
+
+        <div class = "main">
+            <div class = "top-container">
+                <div class = "grid"></div>
+
+
+                <div class = "color-panel">
+                    <input type = "color" value="black" class = "colorCircle">
+                        <button id = "PencilBtn" class = "button"> Fill</button>
+                        <button id = "RainbowBtn" class= "button"> Rainbow Fill</button>
+                        <button id = "EraserBtn" class = "button"> Eraser </button>
+                        <button id = "clearBtn" class = "button" > Clear </button>
+                        <!--
+                        <button id = "gridBtn" class = "button" > Grid </button>
+                        -->
+                    <input id="sizeSlider" type="range" value="8" min="1" max="40" />
+                    <p class = "size" id = "size"> 8x8 </p>
+                </div>
+            </div>
+
+
+            <div class = "etchName">
+                <h2>Etch-a-Sketch</h2>
+            </div>
+
+
+
+        </div>
+    </body>
+</html>
