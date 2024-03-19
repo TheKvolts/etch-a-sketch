@@ -6,7 +6,7 @@ A small application of [Etch-a-Sketch](https://thekvolts.github.io/etch-a-sketch
 Learned to create this project through the OdinProject.
 
 ## Functionality
-- Color Wheel
+- Color Palette
 - Fill
 - Rainbow Fill
 - Eraser
